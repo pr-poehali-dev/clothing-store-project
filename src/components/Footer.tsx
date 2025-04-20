@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Instagram, Facebook, YouTube } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Facebook, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a href="#" className="text-gray-300 hover:text-fashion transition-colors">
-                <YouTube size={20} />
+                <ExternalLink size={20} />
               </a>
             </div>
           </div>
